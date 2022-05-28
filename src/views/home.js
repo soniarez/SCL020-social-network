@@ -5,14 +5,19 @@ import { out } from '../firebase/auth.js';
 const Home = () => {
   const template = `
   <h1>home</h1>
+  <button id="map">map</button>
   <button id="sign-out">Sign Out</button>`;
 
   const container = document.createElement('div');
   container.innerHTML = template;
   container.classList.add = 'container';
-
-  const button = container.querySelector('#sign-out');
-  button.addEventListener('click', () => {
+  
+   const buttonMap = container.querySelector('#map');
+  buttonMap.addEventListener('click', () => {
+    navigate('/map');
+  });
+  const buttonOut = container.querySelector('#sign-out');
+  buttonOut.addEventListener('click', () => {
     out();
     navigate('/');
   });
