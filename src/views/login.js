@@ -1,6 +1,6 @@
 import { login, google } from '../firebase/auth.js';
 import { navigate, next } from '../router/router';
-import logoUrl from '../img/brand-logo.png';
+import logoUrl from '../img/brand-logo.jpg';
 
 const Login = () => {
   const template = // HTML

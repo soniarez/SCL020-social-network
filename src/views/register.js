@@ -1,7 +1,7 @@
 /* eslint-disable import/no-cycle */
 import { create } from '../firebase/auth.js';
 import { navigate } from '../router/router.js';
-import logoUrl from '../img/brand-logo.png'
+import logoUrl from '../img/brand-logo.jpg'
 
 const Register = () => {
   const template = //HTML

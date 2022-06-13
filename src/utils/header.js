@@ -1,6 +1,6 @@
 import { navigate } from '../router/router.js';
 import { out } from '../firebase/auth.js';
-import logoUrl from '../img/brand-logo.png';
+import logoUrl from '../img/brand-logo.jpg';
 import avatarUrl from '../img/main-avatar.png'
 
 export const Header = () => {
